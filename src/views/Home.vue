@@ -30,8 +30,6 @@ export default {
       console.log('blogs', blogs)
       let blogsArray = []
       for (let key in blogs) {
-        // blogs[key].objectId = key
-        // blogsArray.push(blogs[key])
         blogsArray.push(blogs[key])
       }
       this.blogs = blogsArray
